@@ -170,3 +170,48 @@ li {
   display: inline-block;
   margin-right: 40px;
 }
+
+@media (max-width: 600px) {
+  .main-sect > * {
+    flex-shrink: 0;
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    padding-right: calc(var(--bs-gutter-x) * .5);
+    padding-left: calc(var(--bs-gutter-x) * .5);
+    margin-top: var(--bs-gutter-y);
+    background-color: #fdbb2d;
+    padding: 10px;
+   padding-top: 50px;
+  }
+  .main-left {
+    flex: 0 0 auto;
+    width: 100%;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .mein-rigth {
+    flex: 0 0 auto;
+    width: 100%;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 5px;
+  }
+  .footer {
+    background: #F4F4F4;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    height: 300px;
+    padding: 0px 50px;
+    color: rgba(0,0,0,0.3);
+  }
+}
+.title {
+  text-align: center;
+}
